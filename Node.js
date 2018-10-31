@@ -1,7 +1,12 @@
 class Node {
   constructor() {
-    // what instance properties shall we set?
+    this.completeWord = null;
+    this.children = {};
   }
 }
+
+
+
+
 
 module.exports = Node;
